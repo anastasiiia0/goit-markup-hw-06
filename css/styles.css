@@ -386,6 +386,7 @@ input {
 
 .portfolio-list {
   display: flex;
+  gap: 48px;
   /* column-gap: 24px;
   row-gap: 48px; */
   flex-wrap: wrap;
