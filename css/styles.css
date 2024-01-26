@@ -28,19 +28,22 @@ button {
 ul,
 ol {
   margin: 0;
-  padding-left: 0;
+  padding: 0;
+  line-height: 0;
   list-style-type: none;
 }
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .container {
   width: 100%;
   max-width: 320px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 16px;
+  padding-right: 16px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -64,7 +67,7 @@ input {
 
 .header {
   background-color: #fff;
-  padding: 24px 0;
+  padding: 16px 0;
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
@@ -85,88 +88,25 @@ input {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-right: 76px;
+  /* margin-right: 76px; */
 }
 
 .header-logo-navy-blue {
   color: #2e2f42;
 }
 
-.header-navigation {
-  display: flex;
-  align-items: center;
-}
-
 .nav-menu {
-  display: flex;
-  gap: 40px;
-  align-items: center;
-}
-
-.nav-link {
-  position: relative;
-  color: #404bbf;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  padding: 24px 0;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.nav-link.current {
-  color: #404bbf;
-  position: relative;
-}
-
-.nav-link.current::after {
-  content: "";
-  left: 0;
-  bottom: -4px;
-  width: 100%;
-  height: 4px;
-  border-radius: 2px;
-  position: absolute;
-  background-color: #404bbf;
-}
-
-.nav-link {
-  color: #2e2f42;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.nav-link:hover,
-.nav-link:focus {
-  color: #404bbf;
+  display: none;
 }
 
 .contacts {
-  font-style: normal;
-  color: #434455;
+  display: none;
 }
 
-.contacts-menu {
-  display: flex;
-  gap: 40px;
-}
-
-.contacts-link {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.contacts-link:hover,
-.contacts-link:focus {
-  color: #404bbf;
+.menu-open-btn {
+  background-color: transparent;
+  border: none;
+  line-height: 0;
 }
 
 .main-section {
