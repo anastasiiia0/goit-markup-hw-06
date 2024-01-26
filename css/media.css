@@ -1,4 +1,14 @@
-@media (min-width: 768px) {
+@media screen and (min-resolution: 2dppx) {
+  .main-section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office-mob-2x.jpg);
+  }
+}
+
+@media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
   }
@@ -35,6 +45,34 @@
 
   .portfolio-list-item {
     width: calc((100% - 24px) / 2);
+  }
+
+  .main-section {
+    padding: 112px 0;
+    max-width: 768px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office-tab.jpg);
+  }
+
+  @media screen and (min-resolution: 2dppx) {
+    .main-section {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office-tab-2x.jpg);
+    }
+  }
+
+  .main-section-text {
+    font-size: 56px;
+    line-height: 1.07;
+    max-width: 496px;
+    margin-bottom: 36px;
+    text-transform: none;
   }
 }
 
@@ -109,5 +147,29 @@
 
   .portfolio-list-item {
     flex-basis: calc((100% - 48px) / 3);
+  }
+
+  .main-section {
+    padding: 188px 0;
+    max-width: 1440px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office-desk.jpg);
+  }
+
+  @media screen and (min-resolution: 2dppx) {
+    .main-section {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office-desk-2x.jpg);
+    }
+  }
+
+  .main-section-text {
+    margin-bottom: 48px;
   }
 }
