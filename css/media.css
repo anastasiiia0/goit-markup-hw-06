@@ -39,7 +39,6 @@
   }
 
   .nav-link.current {
-    color: #404bbf;
     position: relative;
   }
 
@@ -158,6 +157,8 @@
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .our-team > .container {
