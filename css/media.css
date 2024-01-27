@@ -152,6 +152,29 @@
   .portfolio-list-item {
     width: calc((100% - 24px) / 2);
   }
+
+  .footer-container {
+    display: flex;
+    flex-direction: row;
+    padding-left: 108px;
+    column-gap: 24px;
+    /* row-gap: 72px; */
+    flex-wrap: wrap;
+    text-align: start;
+  }
+
+  .footer-description {
+    max-width: 264px;
+  }
+
+  .footer-modal-form {
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .footer-form-input {
+    width: 264px;
+  }
 }
 
 @media screen and (min-width: 1158px) {
