@@ -158,7 +158,6 @@
     flex-direction: row;
     padding-left: 108px;
     column-gap: 24px;
-    /* row-gap: 72px; */
     flex-wrap: wrap;
     text-align: start;
   }
@@ -174,6 +173,11 @@
 
   .footer-form-input {
     width: 264px;
+  }
+
+  .modal {
+    max-width: 408px;
+    min-height: 584px;
   }
 }
 
