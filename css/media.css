@@ -290,4 +290,26 @@
   .portfolio-list-item {
     flex-basis: calc((100% - 48px) / 3);
   }
+
+  .footer-container {
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 0;
+  }
+
+  .footer-general-info {
+    margin-right: 120px;
+  }
+
+  .footer-social-media {
+    margin-right: 80px;
+  }
+
+  .footer-form-input {
+    border: 1px solid #fff;
+  }
+
+  .footer-form-input::placeholder {
+    color: #fff;
+  }
 }
